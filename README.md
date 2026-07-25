@@ -34,10 +34,9 @@
 
 | 旗舰产品 | 核心优势与特色 | 体验 & 了解 |
 | :--- | :--- | :---: |
-| 🤖 **Bot4 自动加粉/私域引流机器人** | 智能客情维护、自动化多渠道加粉引流、私域客源裂变与自动化吸金引擎 | [👉 点击了解 Bot4 私域神器](https://github.com/aideluo/xm-core) |
-| 🏪 **星码应用商店 (XM App Store)** | 汇聚 20+ 酷炫极客桌面工具、AI 图像处理、极速桌面搜索与自动化插件库 | [👉 访问星码应用商店](https://github.com/aideluo/xm-core) |
-| 📚 **Knowbox AI 知识库卡片** | 桌面一键引力吸入，智能提取长文本与文件，自动生成结构化 AI 知识卡片 | [👉 探索 Knowbox](https://github.com/aideluo/xm-core) |
-| 🎵 **XM Music 音乐墙** | 极具未来感的沉浸式 3D 桌面音乐可视化大屏 | [👉 体验 XM Music](https://github.com/aideluo/xm-core) |
+| 🤖 **Bot4 自动加粉/私域引流机器人** | 智能客情维护、自动化多渠道加粉引流、私域客源裂变与自动化吸金引擎 | [👉 点击了解 Bot4 私域神器](https://github.com/aideluo/wx-bot4) |
+| 🏪 **星码应用商店 (XM App Store)** | 汇聚 20+ 酷炫极客桌面工具、AI 图像处理、极速桌面搜索与自动化插件库 | [👉 访问星码应用商店](https://xmcore.top/xm-store/) |
+| 🎵 **XM Music 音乐墙** | 极具未来感的沉浸式 3D 桌面音乐可视化大屏 | [👉 体验 XM Music](https://xmcore.top/xm-music/) |
 
 </div>
 
