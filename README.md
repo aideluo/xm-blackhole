@@ -12,6 +12,10 @@
 
 *实时穿透底层桌面 · 爱因斯坦引力透镜光折射 · 拖拽 60 FPS 零卡顿 · OBS/录屏 100% 稳定兼容*
 
+<br />
+
+<img src="assets/demo.gif" alt="XM Blackhole Engine Live Demo" width="760" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.4);" />
+
 </div>
 
 ---
