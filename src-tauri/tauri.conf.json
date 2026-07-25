@@ -1,0 +1,117 @@
+{
+    "$schema": "https://raw.githubusercontent.com/nicovell3/tauri/v2/crates/tauri-config-schema/schema.json",
+    "productName": "暗核工坊",
+    "version": "0.1.0",
+    "identifier": "com.xmcode.blackhole",
+    "build": {
+        "beforeDevCommand": "pnpm --filter xm-blackhole dev",
+        "beforeBuildCommand": "pnpm --filter xm-blackhole build",
+        "devUrl": "http://localhost:40089",
+        "frontendDist": "../dist"
+    },
+    "app": {
+        "withGlobalTauri": true,
+        "security": {
+            "csp": "default-src 'self'; script-src 'self' 'wasm-unsafe-eval' https://res.wx.qq.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data: https:; frame-src 'self' https://xmcore.top https://*.xmcore.top https://*.weixin.qq.com; connect-src 'self' ipc: http://ipc.localhost tauri://localhost http://localhost:* http://127.0.0.1:* https://*",
+            "capabilities": [
+                {
+                    "identifier": "xm-base-capability",
+                    "description": "星码行空全生态 Tauri 产品共享基础能力 — 由 scripts/merge-tauri-config.ts 统一管理并根据 Cargo.toml 自动裁剪过滤",
+                    "windows": [
+                        "*"
+                    ],
+                    "remote": {
+                        "urls": [
+                            "http://localhost:*/**",
+                            "http://127.0.0.1:*/**",
+                            "https://xmcore.top/**",
+                            "https://*.xmcore.top/**"
+                        ]
+                    },
+                    "permissions": [
+                        "core:default",
+                        "core:app:allow-version",
+                        "core:event:default",
+                        "core:event:allow-listen",
+                        "core:window:default",
+                        "core:window:allow-start-dragging",
+                        "core:window:allow-start-resize-dragging",
+                        "core:window:allow-minimize",
+                        "core:window:allow-unminimize",
+                        "core:window:allow-maximize",
+                        "core:window:allow-unmaximize",
+                        "core:window:allow-toggle-maximize",
+                        "core:window:allow-close",
+                        "core:window:allow-is-maximized",
+                        "core:window:allow-set-size",
+                        "core:window:allow-set-resizable",
+                        "core:window:allow-center",
+                        "core:window:allow-set-position",
+                        "core:window:allow-set-decorations",
+                        "core:window:allow-is-fullscreen",
+                        "core:window:allow-set-fullscreen",
+                        "core:window:allow-outer-size",
+                        "core:window:allow-outer-position",
+                        "core:window:allow-show",
+                        "core:window:allow-hide",
+                        "core:window:allow-set-focus",
+                        "core:window:allow-set-always-on-top",
+                        "core:window:allow-is-always-on-top",
+                        "core:window:allow-set-min-size",
+                        "core:window:allow-set-max-size",
+                        "core:webview:allow-create-webview-window",
+                        "process:default",
+                        "process:allow-restart",
+                        "updater:default"
+                    ]
+                }
+            ]
+        },
+        "windows": [
+            {
+                "title": "暗核工坊",
+                "width": 380,
+                "height": 380,
+                "transparent": true,
+                "decorations": false,
+                "alwaysOnTop": true,
+                "resizable": false,
+                "shadow": false,
+                "label": "main"
+            }
+        ]
+    },
+    "bundle": {
+        "active": true,
+        "createUpdaterArtifacts": true,
+        "targets": [
+            "nsis"
+        ],
+        "windows": {
+            "nsis": {
+                "displayLanguageSelector": false,
+                "languages": [
+                    "SimpChinese",
+                    "English"
+                ],
+                "installerHooks": "../../../packages/toolchain/tauri-config/nsis/global-hooks.nsh"
+            }
+        },
+        "icon": [
+            "icons/icon.png",
+            "icons/32x32.png",
+            "icons/128x128.png",
+            "icons/128x128@2x.png",
+            "icons/icon.icns",
+            "icons/icon.ico"
+        ]
+    },
+    "plugins": {
+        "updater": {
+            "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDFCNjI4RTc1NjdGOEY1NDAKUldSQTlmaG5kWTVpRzdGbHl4ejEzZDhMYTd5NGFicElKNVdjaHBuakh2YVBiQTBpVVpGUGx6dzAK",
+            "endpoints": [
+                "https://xmcore.top/api/xm-store/api/v1/updater/xm-blackhole/{{target}}/{{current_version}}"
+            ]
+        }
+    }
+}

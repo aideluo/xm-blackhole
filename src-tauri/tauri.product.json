@@ -1,0 +1,25 @@
+{
+    "productName": "暗核工坊",
+    "version": "0.1.0",
+    "identifier": "com.xmcode.blackhole",
+    "build": {
+        "beforeDevCommand": "pnpm --filter xm-blackhole dev",
+        "beforeBuildCommand": "pnpm --filter xm-blackhole build",
+        "devUrl": "http://localhost:40089",
+        "frontendDist": "../dist"
+    },
+    "app": {
+        "windows": [
+            {
+                "title": "暗核工坊",
+                "width": 380,
+                "height": 380,
+                "transparent": true,
+                "decorations": false,
+                "alwaysOnTop": true,
+                "resizable": false,
+                "shadow": false
+            }
+        ]
+    }
+}

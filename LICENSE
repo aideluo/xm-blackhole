@@ -1,0 +1,45 @@
+GNU AFFERO GENERAL PUBLIC LICENSE
+Version 3, 19 November 2007
+
+Copyright (C) 2026 aideluo / XM Ecosystem.
+Original Repository: https://github.com/aideluo/xm-blackhole
+
+===============================================================================
+1. RECIPROCAL OPEN-SOURCE REQUIREMENT (GNU AGPL-3.0)
+===============================================================================
+This program is free software: you can redistribute it and/or modify it under 
+the terms of the GNU Affero General Public License as published by the Free 
+Software Foundation, either version 3 of the License, or (at your option) any 
+later version.
+
+Anyone who modifies, extends, embeds, or builds derivative works based on this 
+software (including running network or cloud services utilizing this software) 
+MUST make the complete source code of their derivative work available under 
+the same license (GNU AGPL-3.0). Proprietary commercial closure is strictly 
+prohibited.
+
+===============================================================================
+2. MANDATORY ATTRIBUTION ADDENDUM
+===============================================================================
+In accordance with Section 7(b) of the GNU Affero General Public License, the 
+following additional requirement applies to all derivative works, forks, and 
+projects utilizing this software:
+
+All derivative works, modified versions, and open-source projects using this 
+codebase MUST prominently display and retain the following attribution link in 
+the top third of their README.md file:
+
+    "Based on [XM Blackhole Engine](https://github.com/aideluo/xm-blackhole) by aideluo."
+
+===============================================================================
+3. TERMINATION AND CLAIM FOR LEGAL DAMAGES
+===============================================================================
+Any use, distribution, or modification of this software that fails to strictly 
+comply with the Reciprocal Open-Source Requirement or the Mandatory Attribution 
+Addendum shall automatically terminate all rights granted under this License.
+
+Non-compliant usage constitutes willful copyright infringement. The copyright 
+holder (aideluo / XM Ecosystem) reserves all rights to pursue legal remedies, 
+mandatory platform takedowns, and full financial damages (including statutory 
+damages, disgorgement of illicit profits, and legal costs) under applicable 
+intellectual property laws.

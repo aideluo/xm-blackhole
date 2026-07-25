@@ -1,0 +1,33 @@
+<svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bh-grad-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <radialGradient id="bh-core-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d8b4fe" stop-opacity="1" />
+      <stop offset="40%" stop-color="#9333ea" stop-opacity="0.8" />
+      <stop offset="85%" stop-color="#3b0764" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#030712" stop-opacity="1" />
+    </radialGradient>
+    <filter id="bh-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <rect width="1024" height="1024" rx="220" fill="#090d16" />
+
+  <g filter="url(#bh-glow)">
+    <circle cx="512" cy="512" r="440" fill="none" stroke="url(#bh-grad-1)" stroke-width="14" stroke-dasharray="80 30 160 40 40 20" stroke-opacity="0.6" transform="rotate(25 512 512)" />
+    <circle cx="512" cy="512" r="380" fill="none" stroke="#c084fc" stroke-width="18" stroke-dasharray="140 60 40 80" stroke-opacity="0.85" transform="rotate(-40 512 512)" />
+    <circle cx="512" cy="512" r="310" fill="none" stroke="#e9d5ff" stroke-width="22" stroke-dasharray="200 80" stroke-opacity="0.95" transform="rotate(75 512 512)" />
+  </g>
+
+  <circle cx="512" cy="512" r="240" fill="url(#bh-core-glow)" />
+
+  <path d="M 512 272 A 240 240 0 0 1 752 512 A 240 240 0 0 1 512 752 A 240 240 0 0 1 272 512 A 240 240 0 0 1 512 272 Z" fill="none" stroke="#f472b6" stroke-width="10" stroke-opacity="0.75" transform="rotate(15 512 512)" />
+  <circle cx="512" cy="512" r="120" fill="#030712" />
+  <circle cx="512" cy="512" r="100" fill="#000000" />
+</svg>

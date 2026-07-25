@@ -1,0 +1,39 @@
+{
+  "name": "xm-blackhole",
+  "version": "0.1.0",
+  "description": "极具视觉冲击力与直觉交互的桌面暗黑黑洞引擎，支持拖拽吞噬、安全彻底销毁与私域自动化联动。",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "solid-js": "catalog:",
+    "@solidjs/router": "catalog:",
+    "@xm/tokens": "workspace:*",
+    "@xm/ui": "workspace:*",
+    "@xm/request": "workspace:*",
+    "@xm/theme": "workspace:*",
+    "@xm/i18n": "workspace:*",
+    "@xm/utils": "workspace:*",
+    "@xm/auth": "workspace:*",
+    "@xm/shell": "workspace:*",
+    "@tauri-apps/api": "catalog:",
+    "@xm/brand": "workspace:*",
+    "@xm/legal": "workspace:*",
+    "@xm/updater": "workspace:*",
+    "@xm/pay-gate": "workspace:*",
+    "@xm/logger": "workspace:*"
+  },
+  "devDependencies": {
+    "@xm/vite-config": "workspace:*",
+    "@xm/uno-config": "workspace:*",
+    "@tauri-apps/cli": "catalog:",
+    "typescript": "catalog:",
+    "vite": "catalog:",
+    "vite-plugin-solid": "catalog:",
+    "unocss": "catalog:"
+  }
+}
